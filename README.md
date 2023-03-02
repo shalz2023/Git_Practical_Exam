@@ -15,14 +15,11 @@
     3. Then commit the rebase branch and push it in remote repository.    
     4. Now to rebase feature branch with master branch using "git rebase main" command.
     5. After rebase is successful in terminal push it to remote repository.
-## 3. Change Commit Message 
+### 3. Change Commit Message 
 --> Commit push on commit in feature branch and then change commit message
 #### Steps:
-    1. In main branch then created rebase.html.
-    2. Checkout feature branch named "rebase".  
-    3. Then commit the rebase branch and push it in remote repository.    
-    4. Now rebase feature branch with master branch using "git rebase main" command.
-    5. After rebase is successful in terminal push it to remote repository.
+   Use git commit -amend -m "modified message" to change your previous commit.
+
 ## 4. Cherry Pick
 --> Pick some commits from feature branch to master branch
 #### Steps:
