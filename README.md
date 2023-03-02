@@ -2,14 +2,15 @@
 ## 1. Pull and Merge difference
 --> Make example of pull request and two branch merge event.
 #### Steps:
-    1. Create a feature branch add index.html file.    
-    2. Commit the feature branch and push it in remote repository.   
+    1. Create a feature branch test1, test2 and test3.   
+    2. Commit the all feature branch changes and push it in remote repository.   
     3. Create a pull request on github.    
-    4. Merge the feature branch with main branch.
+    4. Merge the test1 branch with main branch.
+    5. Similarly merge test2 and test3
 ## 2. Rebase
 --> Try to rebase feature branch with master branch 
 #### Steps:
-    1. I am in main branch then created rebase.html.
+    1. In main branch create rebase.html.
     2. Checkout feature branch named "rebase".  
     3. Then commit the rebase branch and push it in remote repository.    
     4. Now to rebase feature branch with master branch using "git rebase main" command.
@@ -31,15 +32,15 @@
     4. Checkout in main branch.
     5. performed "git cherry-pick <hash ID>" command.
     6. Push that in remote repository.
-## 4. Drop commit
+## 5. Drop commit
 --> Pick some commits from feature branch to master branch
 #### Steps:
     1. Created drop branch and added drop.html file inside it.
     2. Modified and commit the changes. Repeat it 3 times 
     3. Use Drop commit command on last commit.
-    ```
-        git reset --hard HEAD^
-    ```
+        ```
+            git reset --hard HEAD^
+        ```
     4. Push that in remote repository.
 
 
