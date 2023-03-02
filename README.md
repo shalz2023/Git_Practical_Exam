@@ -31,6 +31,16 @@
     4. Checkout in main branch.
     5. performed "git cherry-pick <hash ID>" command.
     6. Push that in remote repository.
+## 4. Drop commit
+--> Pick some commits from feature branch to master branch
+#### Steps:
+    1. Created drop branch and added drop.html file inside it.
+    2. Modified and commit the changes. Repeat it 3 times 
+    3. Use Drop commit command on last commit.
+    ```
+        git reset --hard HEAD^
+    ```
+    4. Push that in remote repository.
 
 
 
