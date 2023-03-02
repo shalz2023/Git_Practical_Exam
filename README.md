@@ -18,10 +18,10 @@
 ## 3. Change Commit Message 
 --> Commit push on commit in feature branch and then change commit message
 #### Steps:
-    1. I am in main branch then created rebase.html.
+    1. In main branch then created rebase.html.
     2. Checkout feature branch named "rebase".  
     3. Then commit the rebase branch and push it in remote repository.    
-    4. Now to rebase feature branch with master branch using "git rebase main" command.
+    4. Now rebase feature branch with master branch using "git rebase main" command.
     5. After rebase is successful in terminal push it to remote repository.
 ## 4. Cherry Pick
 --> Pick some commits from feature branch to master branch
@@ -36,7 +36,7 @@
 --> Pick some commits from feature branch to master branch
 #### Steps:
     1. Created drop branch and added drop.html file inside it.
-    2. Modified and commit the changes. Repeat it 3 times 
+    2. Made 3 commits
     3. Use Drop commit command on last commit.
         ```
             git reset --hard HEAD^
